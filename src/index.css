@@ -1,0 +1,74 @@
+@import 'flowbite/dist/flowbite.min.css';
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
+
+/* TailwindCSS Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+
+/* Hide Scrollbar for elements with .scrollbar-none class */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none; /* For IE and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
+
+/* Gradient Background Animation */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 300% 300%;
+  animation: gradientBG 6s ease infinite;
+}
+
+/* Slight Pop effect on Hover for group elements */
+.group:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Applying GPU acceleration for smoother transformations */
+.transform-gpu {
+  transform: perspective(1px) translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Adding some spacing and shadow effects for better UI */
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure the body and HTML take the full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+/* Add smooth transitions for hover effects */
+a, button {
+  transition: all 0.3s ease;
+}
+
+/* Styling for links and buttons */
+a:hover, button:hover {
+  color: #3B82F6; /* Blue hover color */
+  transform: scale(1.05);
+}
