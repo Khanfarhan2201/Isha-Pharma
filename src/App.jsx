@@ -7,7 +7,7 @@ import './index.css'; // Tailwind imports
 
 // Components
 import Navbar from "./components/Header";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 
 // Pages
