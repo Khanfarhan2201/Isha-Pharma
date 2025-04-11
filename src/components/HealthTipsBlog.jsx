@@ -5,21 +5,21 @@ const HealthTipsBlog = () => {
     {
       id: 1,
       title: "5 Ways to Boost Your Immunity",
-      image: "/src/assets/images/immunity.jpg", // Replace with actual image paths
+      image: "/immunity.jpg", // Replace with actual image paths
       excerpt: "Discover natural ways to strengthen your immune system...",
       link: "/blog/boost-immunity",
     },
     {
       id: 2,
       title: "Healthy Digestion Tips",
-      image: "/src/assets/images/digestion.jpg", // Replace with actual image paths
+      image: "/digestion.jpg", // Replace with actual image paths
       excerpt: "Learn how to improve your gut health with these simple habits...",
       link: "/blog/healthy-digestion",
     },
     {
       id: 3,
       title: "The Benefits of Herbal Supplements",
-      image: "/src/assets/images/Herbal.jpg", // Replace with actual image paths
+      image: "Herbal.jpg", // Replace with actual image paths
       excerpt: "Explore the power of natural remedies for wellness...",
       link: "/blog/herbal-supplements",
     },

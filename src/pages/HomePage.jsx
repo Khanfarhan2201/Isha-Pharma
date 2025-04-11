@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import IshaPreloader from "../components/Preloader";
 
 import HeroBanner from "../components/HeroBanner";
-import FeaturedProducts from "../components/FeaturedProducts";
+// import FeaturedProducts from "../components/FeaturedProducts";
 import CategoryWiseProducts from "../components/categories";
 import ProductDetailsSection from "../components/ProductDetailsSection";
 import WhyChooseIshaPharma from "../components/WhyChooseIshaPharma";
@@ -20,7 +20,8 @@ import FAQSection from "../components/FAQSection";
 import SafetyAlerts from "../components/safety/SafetyAlerts";
 import GlobalPresence from "../components/global/GlobalPresence";
 import FloatingInquiry from "../components/cta/FloatingInquiry";
-import SwiperCard from "../components/FeaturedProducts";
+import TopProductsSwiper from "../components/SwiperCards";
+
 
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
@@ -55,8 +56,11 @@ const HomePage = () => {
 {/* <section data-aos="zoom-in"><FeaturedProducts /></section>
 <div className="h-8" /> */}
 
-<section data-aos="zoom-in"><SwiperCard /></section>
-<div className="h-8" />
+
+
+
+ <section data-aos="zoom-in"><TopProductsSwiper /></section>
+<div className="h-8" /> 
 
 <section data-aos="fade-left"><CategoryWiseProducts /></section>
 <div className="h-8" />

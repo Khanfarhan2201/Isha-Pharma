@@ -4,19 +4,19 @@ const TestimonialsPartners = () => {
   const partners = [
     {
       name: "City Hospital",
-      logo: "/src/assets/images/hospital_3000010.png",
+      logo: "/hospital_3000010.png",
     },
     {
       name: "HealthDistribute",
-      logo: "/src/assets/images/care_6800289.png",
+      logo: "/care_6800289.png",
     },
     {
       name: "MediBrand",
-      logo: "/src/assets/images/substance_10527114.png",
+      logo: "/substance_10527114.png",
     },
     {
       name: "Care Clinic",
-      logo: "/src/assets/images/clinic_8217926.png",
+      logo: "/clinic_8217926.png",
     },
   ];
 

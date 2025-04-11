@@ -2,27 +2,27 @@ import { useState } from "react";
 
 const ProductList = () => {
   const guyniProducts = [
-    { id: 1, name: "Arabian Musk", price: 99, originalPrice: 79, rating: 4, image: "/src/assets/images/img-11.jpeg", onSale: true },
-    { id: 2, name: "Albanian Essence", price: 299, rating: 5, image: "/src/assets/images/img-12.jpeg", onSale: false },
-    { id: 3, name: "Siberian Perfum", price: 49, rating: 5, image: "/src/assets/images/img-13.jpeg", onSale: false },
-    { id: 4, name: "Danish Levoune", price: 79, rating: 4, image: "/src/assets/images/img-14.jpeg", onSale: false },
-    { id: 5, name: "Arabian Musk Extra", price: 99, originalPrice: 79, rating: 4, image: "/src/assets/images/img-15.jpeg", onSale: true },
-    { id: 6, name: "Siberian Perfum", price: 49, rating: 5, image: "/src/assets/images/img-16.jpeg", onSale: false },
-    { id: 7, name: "Danish Levoune", price: 79, rating: 4, image: "/src/assets/images/img-17.jpeg", onSale: false },
-    { id: 8, name: "Arabian Musk Extra", price: 99, originalPrice: 79, rating: 4, image: "/src/assets/images/img-18.jpeg", onSale: true },
+    { id: 1, name: "Arabian Musk", price: 99, originalPrice: 79, rating: 4, image: "/img-11.jpeg", onSale: true },
+    { id: 2, name: "Albanian Essence", price: 299, rating: 5, image: "/img-12.jpeg", onSale: false },
+    { id: 3, name: "Siberian Perfum", price: 49, rating: 5, image: "/img-13.jpeg", onSale: false },
+    { id: 4, name: "Danish Levoune", price: 79, rating: 4, image: "/img-14.jpeg", onSale: false },
+    { id: 5, name: "Arabian Musk Extra", price: 99, originalPrice: 79, rating: 4, image: "/img-15.jpeg", onSale: true },
+    { id: 6, name: "Siberian Perfum", price: 49, rating: 5, image: "/img-16.jpeg", onSale: false },
+    { id: 7, name: "Danish Levoune", price: 79, rating: 4, image: "/img-17.jpeg", onSale: false },
+    { id: 8, name: "Arabian Musk Extra", price: 99, originalPrice: 79, rating: 4, image: "/img-18.jpeg", onSale: true },
  
 
 ];
 
   const gestroProducts = [
-    { id: 1, name: "Gestro Musk", price: 99, originalPrice: 79, rating: 4, image: "/src/assets/images/img-19.jpeg", onSale: true },
-    { id: 2, name: "Gestro Essence", price: 299, rating: 5, image: "/src/assets/images/img-20.jpeg", onSale: false },
-    { id: 3, name: "Gestro Perfum", price: 49, rating: 5, image: "/src/assets/images/img-21.jpeg", onSale: false },
-    { id: 4, name: "Gestro Levoune", price: 79, rating: 4, image: "/src/assets/images/img-22.jpeg", onSale: false },
-    { id: 5, name: "Gestro Musk Extra", price: 99, originalPrice: 79, rating: 4, image: "/src/assets/images/img-23.jpeg", onSale: true },
-    { id: 6, name: "Gestro Perfum", price: 49, rating: 5, image: "/src/assets/images/img-24.jpeg", onSale: false },
-    { id: 7, name: "Gestro Levoune", price: 79, rating: 4, image: "/src/assets/images/img-25.jpeg", onSale: false },
-    { id: 8, name: "Gestro Musk Extra", price: 99, originalPrice: 79, rating: 4, image: "/src/assets/images/img-26.jpeg", onSale: true },
+    { id: 1, name: "Gestro Musk", price: 99, originalPrice: 79, rating: 4, image: "/img-19.jpeg", onSale: true },
+    { id: 2, name: "Gestro Essence", price: 299, rating: 5, image: "/img-20.jpeg", onSale: false },
+    { id: 3, name: "Gestro Perfum", price: 49, rating: 5, image: "/img-21.jpeg", onSale: false },
+    { id: 4, name: "Gestro Levoune", price: 79, rating: 4, image: "/img-22.jpeg", onSale: false },
+    { id: 5, name: "Gestro Musk Extra", price: 99, originalPrice: 79, rating: 4, image: "/img-23.jpeg", onSale: true },
+    { id: 6, name: "Gestro Perfum", price: 49, rating: 5, image: "/img-24.jpeg", onSale: false },
+    { id: 7, name: "Gestro Levoune", price: 79, rating: 4, image: "/img-25.jpeg", onSale: false },
+    { id: 8, name: "Gestro Musk Extra", price: 99, originalPrice: 79, rating: 4, image: "/img-26.jpeg", onSale: true },
  
 
 ];

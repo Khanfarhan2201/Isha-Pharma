@@ -52,7 +52,7 @@ const AboutTeaser = () => {
         {/* Image Section */}
         <div className="relative w-full h-[350px] sm:h-[400px] rounded-xl overflow-hidden shadow-lg">
           <img
-            src="/src/assets/images/about-us.jpg"
+            src="/about-us.jpg"
             alt="Isha Pharma Lab"
             className="object-cover w-full h-full"
             onError={(e) => { e.target.style.display = "none"; console.log("Image failed to load"); }}

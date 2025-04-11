@@ -9,31 +9,31 @@ const products = [
     id: 1,
     name: "Ish-prot DHA Granules",
     price: "₹480",
-    image: "/src/assets/images/img-15.jpeg",
+    image: "/img-15.jpeg",
   },
   {
     id: 2,
     name: "ISHA-CYSTOREX SYRUP 200 ML",
     price: "₹175",
-    image: "/src/assets/images/img-18.jpeg",
+    image: "/img-18.jpeg",
   },
   {
     id: 3,
     name: "Isha ASHOKA CORDEAL SYRUP 200 ML|450 ML",
     price: "₹150|330",
-    image: "/src/assets/images/img-17.jpeg",
+    image: "/img-17.jpeg",
   },
   {
     id: 4,
     name: "LYCOISH PLUS CAPSULES",
     price: "₹165",
-    image: "/src/assets/images/img-19.jpeg",
+    image: "/img-19.jpeg",
   },
   {
     id: 5,
     name: "APPY-ISH SYRUP 200 ML",
     price: "₹215",
-    image: "/src/assets/images/img-14.jpeg",
+    image: "/img-14.jpeg",
   },
 ];
 

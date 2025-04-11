@@ -10,7 +10,7 @@ const ModernTeam = () => {
       id: 1,
       name: "Dr. Aisha Khan",
       role: "Chief Scientist",
-      image: "/images/team/scientist.jpg",
+      image: "/wallpaper-3.png",
       delay: 0.1
     },
     // Add more team members...

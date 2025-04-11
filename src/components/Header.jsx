@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <img
-                src="/src/assets/images/logo-12.png"
+                src="/logo-12.png"
                 className="h-28 w-auto"
                 alt="Isha Pharma Logo"
               />

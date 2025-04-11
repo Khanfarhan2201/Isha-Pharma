@@ -12,7 +12,7 @@ export default function IshaPreloader() {
         }}
       >
         <img
-          src="/src/assets/images/logo-1.png"  style={{width:"200px", height:"100px"}}
+          src="/logo-1.png"  style={{width:"200px", height:"100px"}}
           alt="Isha Pharma"
           className="w-24 h-24 animate-pulse drop-shadow-[0_0_20px_rgba(34,197,94,0.5)] rounded-full"
         />

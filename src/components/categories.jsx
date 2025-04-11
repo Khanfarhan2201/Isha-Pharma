@@ -8,17 +8,17 @@ const categories = [
       {
         name: "LYCOISH PLUS CAPSULES",
         desc:  "Clears acne, pimples and purifies blood for healthy skin.",
-        img: "/src/assets/images/img-1.jpeg",
+        img: "/img-1.jpeg",
       },
       {
         name: "Product Name 2",
         desc: "Helps with digestion and gut health.",
-        img: "/src/assets/images/img-2.jpeg",
+        img: "/img-2.jpeg",
       },
       {
         name: "Product Name 3",
         desc: "Supports a healthy digestive system.",
-        img: "/src/assets/images/img-3.jpeg",
+        img: "/img-3.jpeg",
       },
     ],
   },
@@ -29,17 +29,17 @@ const categories = [
       {
         name: "Product Name 1",
         desc: "Supports women's health and wellness.",
-        img: "/src/assets/images/img-4.jpeg",
+        img: "/img-4.jpeg",
       },
       {
         name: "Product Name 2",
         desc: "Essential supplement for female health.",
-        img: "/src/assets/images/img-5.jpeg",
+        img: "/img-5.jpeg",
       },
       {
         name: "Product Name 3",
         desc: "Balances hormonal functions naturally.",
-        img: "/src/assets/images/img-6.jpeg",
+        img: "/img-6.jpeg",
       },
     ],
   },

@@ -16,15 +16,15 @@ const FeatureBanner = () => {
           {/* Feature Cards */}
           {[
             {
-              img: "/src/assets/images/slider.jpg",
+              img: "/slider.jpg",
               title: "Quality Products",
             },
             {
-              img: "/src/assets/images/slider-2.jpg",
+              img: "/slider-2.jpg",
               title: "Fast Delivery",
             },
             {
-              img: "/src/assets/images/slider-1.jpg",
+              img: "/slider-1.jpg",
               title: "24/7 Support",
             },
           ].map((feature, index) => (

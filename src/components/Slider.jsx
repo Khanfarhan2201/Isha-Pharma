@@ -6,16 +6,16 @@ const Slider = () => {
   const sliderScrollbarRef = useRef(null);
 
   const images = [
-    "/src/assets/images/img-1.jpeg",
-    "assets/images/isha/img-6.jpeg",
-    "assets/images/isha/img-5.jpeg",
-    "assets/images/isha/img-4.jpeg",
-    "assets/images/isha/img-3.jpeg",
-    "assets/images/isha/img-2.jpeg",
-    "/src/assets/images/img-1.jpeg",
-    "/src/assets/images/img-1.jpeg",
-    "/src/assets/images/img-1.jpeg",
-    "/src/assets/images/img-1.jpeg",
+    "/img-1.jpeg",
+    "/img-6.jpeg",
+    "/img-5.jpeg",
+    "/img-4.jpeg",
+    "/img-3.jpeg",
+    "/img-2.jpeg",
+    "/img-1.jpeg",
+    "/img-1.jpeg",
+    "/img-1.jpeg",
+    "/img-1.jpeg",
   ];
 
   useEffect(() => {
