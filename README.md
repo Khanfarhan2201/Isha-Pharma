@@ -1,12 +1,24 @@
-# React + Vite
+# Isha Pharma 💊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive pharma e-commerce website built using **React**, **Vite**, and **Tailwind CSS**.  
+Isha Pharma allows users to browse and purchase medicines online with a modern user interface and smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🛍️ Online medicine shopping
+- 🔍 Search functionality (upcoming)
+- 🖼️ Product display with styled cards
+- 📱 Fully responsive design
+- ⚡ Fast performance with Vite
+- 🎨 Styled using Tailwind CSS
+- 🛠️ Easy to customize and extend
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧪 Tech Stack
+
+- **Frontend:** React, Vite
+- **Styling:** Tailwind CSS
+- **Version Control:** Git & GitHub
