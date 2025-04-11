@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 const HeroBanner = () => {
   const slides = [
-    "/src/assets/images/slider-1.jpg",
-    "/src/assets/images/slider-2.jpg",
-    "/src/assets/images/slider.jpg",
+    "/slider-1.jpg",
+    "/slider-2.jpg",
+    "/slider.jpg",
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
