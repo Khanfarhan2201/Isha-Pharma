@@ -22,7 +22,6 @@ import GlobalPresence from "../components/global/GlobalPresence";
 import FloatingInquiry from "../components/cta/FloatingInquiry";
 import TopProductsSwiper from "../components/SwiperCards";
 
-
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
   const [fade, setFade] = useState(false);
@@ -48,61 +47,40 @@ const HomePage = () => {
 
   return (
     <div className="px-4 sm:px-8 md:px-10 py-10 space-y-16">
-      <br /><br /><br /><br />
-
+        <div className="pt-24" />
       <section data-aos="fade-up"><HeroBanner /></section>
-<div className="h-8" />
 
-{/* <section data-aos="zoom-in"><FeaturedProducts /></section>
-<div className="h-8" /> */}
+      {/* <section data-aos="zoom-in"><FeaturedProducts /></section> */}
 
+      <section data-aos="zoom-in"><TopProductsSwiper /></section>
 
+      <section data-aos="fade-left"><CategoryWiseProducts /></section>
 
+      <section data-aos="fade-right"><ProductDetailsSection /></section>
 
- <section data-aos="zoom-in"><TopProductsSwiper /></section>
-<div className="h-8" /> 
+      <section data-aos="zoom-in-up"><WhyChooseIshaPharma /></section>
 
-<section data-aos="fade-left"><CategoryWiseProducts /></section>
-<div className="h-8" />
+      <section data-aos="fade-up"><GlobalPresence /></section>
 
-<section data-aos="fade-right"><ProductDetailsSection /></section>
-<div className="h-8" />
+      <section data-aos="zoom-in"><TrustIndicators /></section>
 
-<section data-aos="zoom-in-up"><WhyChooseIshaPharma /></section>
-<div className="h-8" />
+      <section data-aos="fade-down"><SafetyAlerts /></section>
 
-<section data-aos="fade-up"><GlobalPresence /></section>
-<div className="h-8" />
+      <section data-aos="fade-up"><TestimonialsPartners /></section>
 
-<section data-aos="zoom-in"><TrustIndicators /></section>
-<div className="h-8" />
+      <section data-aos="fade-left"><HealthTipsBlog /></section>
 
-<section data-aos="fade-down"><SafetyAlerts /></section>
-<div className="h-8" />
+      <section data-aos="fade-right"><AboutTeaser /></section>
 
-<section data-aos="fade-up"><TestimonialsPartners /></section>
-<div className="h-8" />
+      <section data-aos="zoom-in-up"><CallToActionStrip /></section>
 
-<section data-aos="fade-left"><HealthTipsBlog /></section>
-<div className="h-8" />
+      <section data-aos="fade-up"><NewsTicker /></section>
 
-<section data-aos="fade-right"><AboutTeaser /></section>
-<div className="h-8" />
+      <section data-aos="zoom-in"><FloatingInquiry /></section>
 
-<section data-aos="zoom-in-up"><CallToActionStrip /></section>
-<div className="h-8" />
+      <section data-aos="fade-up"><ContactSection /></section>
 
-<section data-aos="fade-up"><NewsTicker /></section>
-<div className="h-8" />
-
-<section data-aos="zoom-in"><FloatingInquiry /></section>
-<div className="h-8" />
-
-<section data-aos="fade-up"><ContactSection /></section>
-<div className="h-8" />
-
-<section data-aos="fade-down"><FAQSection /></section>
-
+      <section data-aos="fade-down"><FAQSection /></section>
     </div>
   );
 };

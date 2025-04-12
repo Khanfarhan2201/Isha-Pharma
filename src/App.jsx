@@ -17,6 +17,7 @@ import AboutPage from "./pages/AboutPage";
 import ProductsPage from "./pages/ProductsPage";
 import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   // Initialize AOS animations
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <div className="min-h-screen flex flex-col">
         <Navbar />
         

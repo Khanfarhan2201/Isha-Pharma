@@ -7,7 +7,7 @@ const categories = [
     products: [
       {
         name: "LYCOISH PLUS CAPSULES",
-        desc:  "Clears acne, pimples and purifies blood for healthy skin.",
+        desc: "Clears acne, pimples and purifies blood for healthy skin.",
         img: "/img-1.jpeg",
       },
       {
@@ -62,7 +62,7 @@ const CategoryWiseProducts = () => {
           </h2>
 
           {categories.map((category, index) => (
-            <div key={index} className="mb-24 relative z-10"> {/* Increased mb-24 for more space */}
+            <div key={index} className="mb-24 relative z-10">
               <h3 className="text-2xl md:text-3xl font-bold text-center text-indigo-700 mb-8 relative">
                 {category.name}
                 <span className="block w-16 h-1 bg-orange-500 mx-auto mt-2 rounded-full"></span>
@@ -116,7 +116,6 @@ const CategoryWiseProducts = () => {
   );
 };
 
-// Animation keyframes (in a separate CSS file or inline for simplicity)
 const styles = `
   @keyframes pulse {
     0%, 100% { transform: scale(1); }
@@ -128,7 +127,7 @@ const styles = `
   }
   .animate-pulse { animation: pulse 6s infinite; }
   .animate-pulse-slow { animation: pulse-slow 8s infinite; }
-`;
+  `;
 
 const styleSheet = document.createElement("style");
 styleSheet.textContent = styles;
